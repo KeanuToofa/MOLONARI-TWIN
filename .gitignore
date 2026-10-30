@@ -1,0 +1,5 @@
+# Générés par molonari-twin run et report
+results/
+public_reports/
+registry.csv
+.DS_Store

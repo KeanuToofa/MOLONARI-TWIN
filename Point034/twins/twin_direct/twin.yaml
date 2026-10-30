@@ -1,0 +1,11 @@
+schema: molonari-twin/2.0.0
+name: twin_direct
+description: Modèle direct monocouche, paramètres de sol de twin_01 (valeurs par défaut de Molonaviz), non calibrés
+mode: direct
+data: {lab: Laboratory, point: SamplingPoints/Point034}
+processing: {start: '2016-06-27 13:00', end: '2016-07-12 10:15'}
+site_label: Site de démonstration A
+monitoring: {status: inactif}
+layers:
+- {name: sédiments, z_low: 0.4, neg_log10_k: 12, porosity: 0.15, lambda_s: 3.4, rhos_cs: 5000000}
+numerics: {nb_cells: 100, initial_condition: linear}
