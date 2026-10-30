@@ -2,9 +2,8 @@ schema: molonari-twin/2.0.0
 name: twin_mcmc
 description: Inversion MCMC courte monocouche (réglages de twin_03), comparée au modèle direct twin_direct
 mode: mcmc
-data: {lab: Laboratory, point: SamplingPoints/Point034}
-processing: {start: '2016-06-27 13:00', end: '2016-07-12 10:15'}
-site_label: Site de démonstration A
+data: {processed: processed_data/Point034}
+sensors: {sigma_temperature: 0.04}
 monitoring: {status: inactif}
 layers:
 - {name: sédiments, z_low: 0.4}
@@ -16,8 +15,8 @@ mcmc:
     lambda_s: [1, 5]
     rhos_cs: [1000000, 10000000]
   nb_chains: 8
-  nb_iter: 300
-  burn_in_max: 300
+  nb_iter: 3000
+  burn_in_max: 5000
   delta: 3
   n_cr: 3
   c: 0.1
