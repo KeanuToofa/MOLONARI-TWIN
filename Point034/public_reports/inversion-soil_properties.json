@@ -1,0 +1,328 @@
+{
+  "data": {
+    "K": {
+      "interval": [
+        {
+          "data": [
+            1.0883383947585084e-08
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        },
+        {
+          "data": [
+            2.3182994538666534e-07
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        }
+      ],
+      "unit": "m/s",
+      "value": {
+        "data": [
+          5.1318776845955924e-08
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "K_identifiability": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          0.3743359194603846
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "K_median": {
+      "interval": null,
+      "unit": "m/s",
+      "value": {
+        "data": [
+          5.7024503601379906e-08
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "k": {
+      "interval": [
+        {
+          "data": [
+            1.1094173239128525e-15
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        },
+        {
+          "data": [
+            2.3632002587835407e-14
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        }
+      ],
+      "unit": "m²",
+      "value": {
+        "data": [
+          5.231271849740665e-15
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "k_identifiability": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          0.3743359194603846
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "k_median": {
+      "interval": null,
+      "unit": "m²",
+      "value": {
+        "data": [
+          5.81289537220998e-15
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "lambda_s": {
+      "interval": [
+        {
+          "data": [
+            2.2939434518389525
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        },
+        {
+          "data": [
+            4.999440479849868
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        }
+      ],
+      "unit": "W/(m·K)",
+      "value": {
+        "data": [
+          2.426299690275107
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "lambda_s_identifiability": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          0.819803863631231
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "lambda_s_median": {
+      "interval": null,
+      "unit": "W/(m·K)",
+      "value": {
+        "data": [
+          3.87607660236477
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "layers": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          "sédiments"
+        ],
+        "dtype": "str",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "level": {
+      "interval": null,
+      "unit": "1",
+      "value": 0.9
+    },
+    "n": {
+      "interval": [
+        {
+          "data": [
+            0.017349570328546077
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        },
+        {
+          "data": [
+            0.22710171288000677
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        }
+      ],
+      "unit": "1",
+      "value": {
+        "data": [
+          0.241723388138132
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "n_identifiability": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          1.0033322079541884
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "n_median": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          0.11742519532684556
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "rhos_cs": {
+      "interval": [
+        {
+          "data": [
+            1806263.6149566039
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        },
+        {
+          "data": [
+            4921046.116630077
+          ],
+          "dtype": "float64",
+          "shape": [
+            1
+          ]
+        }
+      ],
+      "unit": "J/(m³·K)",
+      "value": {
+        "data": [
+          1248217.8493044227
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "rhos_cs_identifiability": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          0.3624388834636693
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "rhos_cs_median": {
+      "interval": null,
+      "unit": "J/(m³·K)",
+      "value": {
+        "data": [
+          3312552.5331300893
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "instance": "twin_mcmc",
+    "parameters": {},
+    "question": "soil_properties",
+    "ref": "HN-42"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="220" viewBox="0 0 480 220" style="font-family:sans-serif;font-size:11px">
+<rect width="480" height="220" fill="#ffffff"/>
+<text x="56" y="18" font-weight="bold" fill="#222222">Temperature misfit (RMSE)</text>
+<text x="56" y="32" fill="#666666">inversion model, best sample</text>
+<line x1="56" y1="64" x2="56" y2="176" stroke="#666666"/>
+<line x1="56" y1="176.00" x2="460" y2="176.00" stroke="#dddddd"/>
+<text x="50" y="180.00" text-anchor="end" fill="#666666">0</text>
+<line x1="56" y1="131.89" x2="460" y2="131.89" stroke="#dddddd"/>
+<text x="50" y="135.89" text-anchor="end" fill="#666666">0.02</text>
+<line x1="56" y1="87.77" x2="460" y2="87.77" stroke="#dddddd"/>
+<text x="50" y="91.77" text-anchor="end" fill="#666666">0.04</text>
+<text x="56" y="58" fill="#222222">RMSE (°C)</text>
+<rect x="76.20" y="95.92" width="60.60" height="80.08" fill="#0072B2"/>
+<text x="106.50" y="91.92" text-anchor="middle" fill="#222222">0.036</text>
+<text x="106.50" y="192" text-anchor="middle" fill="#222222">t1</text>
+<rect x="177.20" y="102.18" width="60.60" height="73.82" fill="#0072B2"/>
+<text x="207.50" y="98.18" text-anchor="middle" fill="#222222">0.033</text>
+<text x="207.50" y="192" text-anchor="middle" fill="#222222">t2</text>
+<rect x="278.20" y="74.18" width="60.60" height="101.82" fill="#0072B2"/>
+<text x="308.50" y="70.18" text-anchor="middle" fill="#222222">0.046</text>
+<text x="308.50" y="192" text-anchor="middle" fill="#222222">t3</text>
+<rect x="379.20" y="89.92" width="60.60" height="86.08" fill="#E69F00"/>
+<text x="409.50" y="85.92" text-anchor="middle" fill="#222222">0.039</text>
+<text x="409.50" y="192" text-anchor="middle" fill="#222222">total</text>
+</svg>

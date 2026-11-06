@@ -1,0 +1,223 @@
+{
+  "chains": {
+    "file": "chains.npz",
+    "posterior_sha256": "7b9473f735e6a7de3a2b83fdf0ee66a48387698264f87553048bd3989bb9b7c4",
+    "publication_thin": 10,
+    "sha256": "9def138b450c1c211a63850b2d1952b536f34b9a3bdd10619c2502af3a9492c9"
+  },
+  "entries": [
+    {
+      "file": "forward-describe.json",
+      "format": "json",
+      "model": "forward",
+      "parameters": {},
+      "question": "describe",
+      "ref": "HN-02",
+      "sha256": "0c89241ac4ae79942a10a735246d411c98438f8d636cf875f0c65f8ac5c80eec",
+      "uncertainty": "none"
+    },
+    {
+      "file": "forward-provenance.json",
+      "format": "json",
+      "model": "forward",
+      "parameters": {},
+      "question": "provenance",
+      "ref": "HN-43",
+      "sha256": "6d7ca5cf26d343a0d7c05e465e64b06cdc0bdcafacdfdba1478e6de7e8c2ce0e",
+      "uncertainty": "none"
+    },
+    {
+      "file": "forward-water_flux.json",
+      "format": "json",
+      "model": "forward",
+      "parameters": {
+        "level": 0.9
+      },
+      "question": "water_flux",
+      "ref": "HN-10",
+      "sha256": "716c9240c7840365a58e6e249a439e3920d6bed7e2a136dacb9ed22a526ea6dd",
+      "uncertainty": "none"
+    },
+    {
+      "file": "forward-fit_quality.json",
+      "format": "json",
+      "model": "forward",
+      "parameters": {},
+      "question": "fit_quality",
+      "ref": "HN-40",
+      "sha256": "7ae44c61be5739a1ce7782c622ae461baed152beec99fb4cff6d14b5d2984c70",
+      "uncertainty": "none"
+    },
+    {
+      "file": "inversion-describe.json",
+      "format": "json",
+      "model": "inversion",
+      "parameters": {},
+      "question": "describe",
+      "ref": "HN-02",
+      "sha256": "135aef448776fae44e1868c531ae8ba9766557fe1bcd41fe9cf90ef9b43f27c2",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "inversion-provenance.json",
+      "format": "json",
+      "model": "inversion",
+      "parameters": {},
+      "question": "provenance",
+      "ref": "HN-43",
+      "sha256": "628d783df03eff88d361e6c1619d3cda8d9b007ad063db6fe6a1faadbe29bd69",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "inversion-water_flux.json",
+      "format": "json",
+      "model": "inversion",
+      "parameters": {
+        "level": 0.9
+      },
+      "question": "water_flux",
+      "ref": "HN-10",
+      "sha256": "2743eafd9053e11e0e20fe8d47a7ed7b54af165688b01d2dea808468868ede5e",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "inversion-fit_quality.json",
+      "format": "json",
+      "model": "inversion",
+      "parameters": {},
+      "question": "fit_quality",
+      "ref": "HN-40",
+      "sha256": "a0575641ba59c6db302a9566e7f47826ced461159f2f4634b9738a41e7003e70",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "inversion-public_convergence.json",
+      "format": "json",
+      "model": "inversion",
+      "parameters": {},
+      "question": "public_convergence",
+      "ref": "HN-45",
+      "sha256": "7434fc3e5e62dd5498a87e8c6de4abfc85b6be97b28d61294a984287d74c9fe8",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "compare.json",
+      "format": "json",
+      "model": "both",
+      "parameters": {},
+      "question": "compare",
+      "ref": null,
+      "sha256": "5934ea6592b9bc3923198391fdc3be00ee8fe0d041be9fd070e56c6685e54b20",
+      "uncertainty": "none"
+    },
+    {
+      "file": "inversion-soil_properties.json",
+      "format": "json",
+      "model": "inversion",
+      "parameters": {},
+      "question": "soil_properties",
+      "ref": "HN-42",
+      "sha256": "05a3e408ab5877b9bf3ec5edcfccf6958a2b44ea9ee49bcebfddbe1a26c87a45",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "inversion-posterior_samples.npz",
+      "format": "npz",
+      "model": "inversion",
+      "parameters": {},
+      "question": "posterior_samples",
+      "ref": "BN-32",
+      "sha256": "f3b178306b4dc87fe59af05815b4afcb3839ba1ac0c611c34b928e7917b53b8d",
+      "uncertainty": "posterior"
+    },
+    {
+      "file": "inversion-chain_data.npz",
+      "format": "npz",
+      "model": "inversion",
+      "parameters": {},
+      "question": "chain_data",
+      "ref": "BN-34",
+      "sha256": "65aa9089e03ae7dc601b1969cd254a0192862de86b9f028a84a042f67f8d8c95",
+      "uncertainty": "posterior"
+    }
+  ],
+  "figures": [
+    {
+      "file": "figures/forward-water_flux.svg",
+      "from_entry": "forward-water_flux.json",
+      "sha256": "8c67b7d8a308f28b75ba33b83a461a992c9f4612daa71b27879d87818a36eb15"
+    },
+    {
+      "file": "figures/forward-fit_quality.svg",
+      "from_entry": "forward-fit_quality.json",
+      "sha256": "8f007e61131ac75b6c89f214902496e125b334f14c38f60253839dce55561dc9"
+    },
+    {
+      "file": "figures/inversion-water_flux.svg",
+      "from_entry": "inversion-water_flux.json",
+      "sha256": "bebe5fc5e1373a5167d927b552e689005932a85b04c5b3eb8272d88f1b464394"
+    },
+    {
+      "file": "figures/inversion-fit_quality.svg",
+      "from_entry": "inversion-fit_quality.json",
+      "sha256": "e67e50ac7d33c806185ea29b38fea27e463559110d1ca8f633c5246decba61cd"
+    }
+  ],
+  "generated_at": "2026-11-06T11:51:45",
+  "generator_version": "molonari-twin 0.8.0-alpha.2",
+  "license": null,
+  "platform": {
+    "forward": {
+      "device": "CPU · float64",
+      "jax": "0.11.2",
+      "jaxlib": "0.11.2",
+      "numpy": "2.5.4",
+      "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+      "processor": "arm"
+    },
+    "inversion": {
+      "device": "CPU · float64",
+      "jax": "0.11.2",
+      "jaxlib": "0.11.2",
+      "numpy": "2.5.4",
+      "platform": "macOS-15.5-arm64-arm-64bit-Mach-O",
+      "processor": "arm"
+    }
+  },
+  "point": "Point034",
+  "report_format": "1.0.0",
+  "signature": null,
+  "skipped": [
+    {
+      "code": "E_REPORT_PRIVATE",
+      "model": "forward",
+      "params": {
+        "elements": "forward_parameters",
+        "question": "soil_properties"
+      },
+      "question": "soil_properties"
+    }
+  ],
+  "space": {
+    "forward": {
+      "commit": null,
+      "recipe_sha256": "2cdf0b9b55f9477df88ca80bd861b51a7884eaafc2e7868c26c5b30100ea5ece",
+      "twin": "twin_direct"
+    },
+    "inversion": {
+      "commit": null,
+      "recipe_sha256": "1ce4b6ca4850fbc042aa19d9c25e2a9f78d34da1b2c8b842c3f40a03cb54a69e",
+      "twin": "twin_mcmc"
+    }
+  },
+  "twin_semver": null,
+  "visibility": {
+    "forward_parameters": false,
+    "inversion_settings": false,
+    "inversion_settings_public": true,
+    "posterior": true,
+    "processed_data": false,
+    "raw_data": false,
+    "states": false
+  }
+}

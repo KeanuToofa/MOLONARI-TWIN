@@ -1,0 +1,19 @@
+schema: molonari-generation/1.0.0
+nb_cells: 50
+initial_condition: linear
+layers:
+- name: sédiments
+  z_low: 0.4
+  bounds:
+    neg_log10_k:
+    - 11.0
+    - 15.0
+    porosity:
+    - 0.01
+    - 0.25
+    lambda_s:
+    - 1.0
+    - 5.0
+    rhos_cs:
+    - 1000000.0
+    - 10000000.0
