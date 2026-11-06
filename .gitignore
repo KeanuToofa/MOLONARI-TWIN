@@ -1,5 +1,5 @@
-# Générés par molonari-twin run et report
+# Résultats calculés, par twin : twins/<twin>/results/ et twins/<twin>/registry.csv (le cache complet reste hors du dépôt)
 results/
-public_reports/
 registry.csv
+# public_reports/ est suivi : le public lit ces fichiers (rapport, chains.npz), produits par `molonari-twin report` à l'OPX
 .DS_Store
