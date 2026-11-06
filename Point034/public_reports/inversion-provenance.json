@@ -1,0 +1,55 @@
+{
+  "data": {
+    "code_version": {
+      "interval": null,
+      "unit": "1",
+      "value": "molonari-twin 0.8.0-alpha.2+g8ce6c2efcc1b · jax 0.11.2"
+    },
+    "device": {
+      "interval": null,
+      "unit": "1",
+      "value": "CPU · float64"
+    },
+    "jax": {
+      "interval": null,
+      "unit": "1",
+      "value": "0.11.2"
+    },
+    "jaxlib": {
+      "interval": null,
+      "unit": "1",
+      "value": "0.11.2"
+    },
+    "numpy": {
+      "interval": null,
+      "unit": "1",
+      "value": "2.5.4"
+    },
+    "platform": {
+      "interval": null,
+      "unit": "1",
+      "value": "macOS-15.5-arm64-arm-64bit-Mach-O"
+    },
+    "processor": {
+      "interval": null,
+      "unit": "1",
+      "value": "arm"
+    }
+  },
+  "provenance": {
+    "instance": "twin_mcmc",
+    "parameters": {},
+    "question": "provenance",
+    "ref": "HN-43"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    }
+  ]
+}

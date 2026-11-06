@@ -1,0 +1,115 @@
+{
+  "data": {
+    "end": {
+      "interval": null,
+      "unit": "datetime64[s]",
+      "value": {
+        "data": [
+          "2016-07-12T10:15:00"
+        ],
+        "dtype": "datetime64[s]",
+        "shape": []
+      }
+    },
+    "layer_bottoms": {
+      "interval": null,
+      "unit": "m",
+      "value": {
+        "data": [
+          0.4
+        ],
+        "dtype": "float64",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "layers": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          "sédiments"
+        ],
+        "dtype": "str",
+        "shape": [
+          1
+        ]
+      }
+    },
+    "mode": {
+      "interval": null,
+      "unit": "1",
+      "value": "mcmc"
+    },
+    "monitoring_status": {
+      "interval": null,
+      "unit": "1",
+      "value": "inactif"
+    },
+    "nb_chains": {
+      "interval": null,
+      "unit": "1",
+      "value": 8
+    },
+    "nb_iter": {
+      "interval": null,
+      "unit": "1",
+      "value": 3000
+    },
+    "offset": {
+      "interval": null,
+      "unit": "m",
+      "value": 0.0
+    },
+    "point": {
+      "interval": null,
+      "unit": "1",
+      "value": "Point034"
+    },
+    "sensor_depths": {
+      "interval": null,
+      "unit": "m",
+      "value": {
+        "data": [
+          0.1,
+          0.2,
+          0.3,
+          0.4
+        ],
+        "dtype": "float64",
+        "shape": [
+          4
+        ]
+      }
+    },
+    "site_label": {
+      "interval": null,
+      "unit": "1",
+      "value": ""
+    },
+    "start": {
+      "interval": null,
+      "unit": "datetime64[s]",
+      "value": {
+        "data": [
+          "2016-06-27T13:00:00"
+        ],
+        "dtype": "datetime64[s]",
+        "shape": []
+      }
+    },
+    "thin": {
+      "interval": null,
+      "unit": "1",
+      "value": 1
+    }
+  },
+  "provenance": {
+    "instance": "twin_mcmc",
+    "parameters": {},
+    "question": "describe",
+    "ref": "HN-02"
+  },
+  "warnings": []
+}

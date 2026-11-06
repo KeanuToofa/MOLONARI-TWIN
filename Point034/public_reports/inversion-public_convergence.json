@@ -1,0 +1,80 @@
+{
+  "data": {
+    "acceptance_mean": {
+      "interval": null,
+      "unit": "1",
+      "value": 0.03241666666666666
+    },
+    "burn_in_converged": {
+      "interval": null,
+      "unit": "1",
+      "value": true
+    },
+    "burn_in_iterations": {
+      "interval": null,
+      "unit": "1",
+      "value": 3170
+    },
+    "chains": {
+      "interval": null,
+      "unit": "1",
+      "value": 8
+    },
+    "ess_green": {
+      "interval": null,
+      "unit": "1",
+      "value": 400.0
+    },
+    "ess_min": {
+      "interval": null,
+      "unit": "1",
+      "value": 42.88931282441736
+    },
+    "ess_orange": {
+      "interval": null,
+      "unit": "1",
+      "value": 100.0
+    },
+    "rhat_green": {
+      "interval": null,
+      "unit": "1",
+      "value": 1.05
+    },
+    "rhat_max": {
+      "interval": null,
+      "unit": "1",
+      "value": 1.1408992922966517
+    },
+    "rhat_orange": {
+      "interval": null,
+      "unit": "1",
+      "value": 1.2
+    },
+    "samples_per_chain": {
+      "interval": null,
+      "unit": "1",
+      "value": 3000
+    },
+    "thresholds_validated": {
+      "interval": null,
+      "unit": "1",
+      "value": false
+    }
+  },
+  "provenance": {
+    "instance": "twin_mcmc",
+    "parameters": {},
+    "question": "public_convergence",
+    "ref": "HN-45"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    }
+  ]
+}

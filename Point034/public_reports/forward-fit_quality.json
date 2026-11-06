@@ -1,0 +1,91 @@
+{
+  "data": {
+    "bias": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          -0.007060232909350505,
+          -0.022142276229372652,
+          -0.0704463332065851
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "level": {
+      "interval": null,
+      "unit": "1",
+      "value": 0.9
+    },
+    "model": {
+      "interval": null,
+      "unit": "1",
+      "value": "forward"
+    },
+    "rmse": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          0.1297129362952055,
+          0.10994931562537326,
+          0.10767390737942646
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "rmse_total": {
+      "interval": null,
+      "unit": "°C",
+      "value": 0.11620092968527303
+    },
+    "sensor": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          "t1",
+          "t2",
+          "t3"
+        ],
+        "dtype": "str",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "uncertainty": {
+      "interval": null,
+      "unit": "1",
+      "value": "none"
+    }
+  },
+  "provenance": {
+    "instance": "twin_direct",
+    "parameters": {},
+    "question": "fit_quality",
+    "ref": "HN-40"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    },
+    {
+      "code": "W_NO_UNCERTAINTY",
+      "field": null,
+      "message_en": "Forward model: its parameters are fixed, so this result has no confidence interval.",
+      "params": {}
+    }
+  ]
+}

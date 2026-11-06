@@ -1,0 +1,90 @@
+{
+  "data": {
+    "end": {
+      "interval": null,
+      "unit": "datetime64[s]",
+      "value": {
+        "data": [
+          "2016-07-12T10:15:00"
+        ],
+        "dtype": "datetime64[s]",
+        "shape": []
+      }
+    },
+    "level": {
+      "interval": null,
+      "unit": "1",
+      "value": 0.9
+    },
+    "mean": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -4.524782784649976e-07
+    },
+    "median": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -5.108715521667856e-07
+    },
+    "model": {
+      "interval": null,
+      "unit": "1",
+      "value": "forward"
+    },
+    "p5": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -7.218964218588373e-07
+    },
+    "p95": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -1.3448024846932052e-07
+    },
+    "points": {
+      "interval": null,
+      "unit": "1",
+      "value": 1430
+    },
+    "start": {
+      "interval": null,
+      "unit": "datetime64[s]",
+      "value": {
+        "data": [
+          "2016-06-27T13:00:00"
+        ],
+        "dtype": "datetime64[s]",
+        "shape": []
+      }
+    },
+    "uncertainty": {
+      "interval": null,
+      "unit": "1",
+      "value": "none"
+    }
+  },
+  "provenance": {
+    "instance": "twin_direct",
+    "parameters": {
+      "level": 0.9
+    },
+    "question": "water_flux",
+    "ref": "HN-10"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    },
+    {
+      "code": "W_NO_UNCERTAINTY",
+      "field": null,
+      "message_en": "Forward model: its parameters are fixed, so this result has no confidence interval.",
+      "params": {}
+    }
+  ]
+}

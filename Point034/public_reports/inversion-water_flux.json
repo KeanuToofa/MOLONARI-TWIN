@@ -1,0 +1,92 @@
+{
+  "data": {
+    "end": {
+      "interval": null,
+      "unit": "datetime64[s]",
+      "value": {
+        "data": [
+          "2016-07-12T10:15:00"
+        ],
+        "dtype": "datetime64[s]",
+        "shape": []
+      }
+    },
+    "level": {
+      "interval": null,
+      "unit": "1",
+      "value": 0.9
+    },
+    "mean": {
+      "interval": [
+        -1.411616180748079e-08,
+        -1.0524757173368629e-09
+      ],
+      "unit": "m/s",
+      "value": -4.6461385558596434e-09
+    },
+    "mean_best": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -3.4627415441430385e-09
+    },
+    "median": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -3.6463662596907597e-09
+    },
+    "model": {
+      "interval": null,
+      "unit": "1",
+      "value": "inversion"
+    },
+    "p5": {
+      "interval": null,
+      "unit": "m/s",
+      "value": -7.120920332984426e-09
+    },
+    "p95": {
+      "interval": null,
+      "unit": "m/s",
+      "value": 3.591312918006952e-10
+    },
+    "points": {
+      "interval": null,
+      "unit": "1",
+      "value": 1430
+    },
+    "start": {
+      "interval": null,
+      "unit": "datetime64[s]",
+      "value": {
+        "data": [
+          "2016-06-27T13:00:00"
+        ],
+        "dtype": "datetime64[s]",
+        "shape": []
+      }
+    },
+    "uncertainty": {
+      "interval": null,
+      "unit": "1",
+      "value": "posterior"
+    }
+  },
+  "provenance": {
+    "instance": "twin_mcmc",
+    "parameters": {
+      "level": 0.9
+    },
+    "question": "water_flux",
+    "ref": "HN-10"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    }
+  ]
+}

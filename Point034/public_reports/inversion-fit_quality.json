@@ -1,0 +1,105 @@
+{
+  "data": {
+    "bias": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          0.020746968534655214,
+          0.02478403439435723,
+          -0.043624923776377146
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "level": {
+      "interval": null,
+      "unit": "1",
+      "value": 0.9
+    },
+    "median_rmse": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          0.03630166304844835,
+          0.03346627732862658,
+          0.04614523134040073
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "median_rmse_total": {
+      "interval": null,
+      "unit": "°C",
+      "value": 0.03901787980647986
+    },
+    "model": {
+      "interval": null,
+      "unit": "1",
+      "value": "inversion"
+    },
+    "rmse": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          0.036303550139231935,
+          0.03346665090582627,
+          0.04616075298807588
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "rmse_total": {
+      "interval": null,
+      "unit": "°C",
+      "value": 0.03902469129491535
+    },
+    "sensor": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          "t1",
+          "t2",
+          "t3"
+        ],
+        "dtype": "str",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "uncertainty": {
+      "interval": null,
+      "unit": "1",
+      "value": "posterior"
+    }
+  },
+  "provenance": {
+    "instance": "twin_mcmc",
+    "parameters": {},
+    "question": "fit_quality",
+    "ref": "HN-40"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    }
+  ]
+}

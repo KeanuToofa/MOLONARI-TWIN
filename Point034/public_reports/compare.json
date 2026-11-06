@@ -1,0 +1,88 @@
+{
+  "data": {
+    "mean_difference": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          -0.027807201444005718,
+          -0.046926310623729886,
+          -0.026821409430207943
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "points": {
+      "interval": null,
+      "unit": "1",
+      "value": 1430
+    },
+    "rmse": {
+      "interval": null,
+      "unit": "°C",
+      "value": {
+        "data": [
+          0.10762738991922331,
+          0.13426674793772383,
+          0.08379540715911553
+        ],
+        "dtype": "float64",
+        "shape": [
+          3
+        ]
+      }
+    },
+    "rmse_total": {
+      "interval": null,
+      "unit": "°C",
+      "value": 0.11050322004894812
+    },
+    "sensor": {
+      "interval": null,
+      "unit": "1",
+      "value": {
+        "data": [
+          "t1",
+          "t2",
+          "t3"
+        ],
+        "dtype": "str",
+        "shape": [
+          3
+        ]
+      }
+    }
+  },
+  "provenance": {
+    "instance": "twin_direct+twin_mcmc",
+    "parameters": {},
+    "question": "compare"
+  },
+  "warnings": [
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    },
+    {
+      "code": "W_PROVENANCE_NOT_A_REPOSITORY",
+      "field": null,
+      "message_en": "The twin is not in a git repository: its provenance is not recorded.",
+      "params": {
+        "target": "twin"
+      }
+    },
+    {
+      "code": "W_NO_UNCERTAINTY",
+      "field": null,
+      "message_en": "Forward model: its parameters are fixed, so this result has no confidence interval.",
+      "params": {}
+    }
+  ]
+}
