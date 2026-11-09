@@ -4,6 +4,7 @@ description: Modèle direct monocouche, paramètres de sol de twin_01 (valeurs p
 mode: direct
 data: {processed: processed_data/Point034}
 monitoring: {status: inactif}
+visibility: {states: true}
 layers:
 - {name: sédiments, z_low: 0.4, neg_log10_k: 12, porosity: 0.15, lambda_s: 3.4, rhos_cs: 5000000}
 numerics: {nb_cells: 100, initial_condition: linear}
