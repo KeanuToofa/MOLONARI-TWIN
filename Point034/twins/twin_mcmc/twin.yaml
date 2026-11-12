@@ -5,6 +5,7 @@ mode: mcmc
 data: {processed: processed_data/Point034}
 sensors: {sigma_temperature: 0.04}
 monitoring: {status: inactif}
+visibility: {states: true}
 layers:
 - {name: sédiments, z_low: 0.4}
 numerics: {nb_cells: 50, initial_condition: linear}
